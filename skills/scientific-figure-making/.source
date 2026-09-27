@@ -1,0 +1,12 @@
+source_repo: https://github.com/ChenLiu-1996/figures4papers
+source_paths:
+  - scientific-figure-making/   # SKILL.md + references/
+  - figure_*/plot_*.py + figure_ImmunoStruct/raw_data.py  # vendored to demos/figure_*/
+pinned_commit: f0bb7559abe90f5e1828797126d4d133c1bd47d7
+pinned_date: 2026-09-25
+license: CC-BY-NC-4.0
+license_file: https://github.com/ChenLiu-1996/figures4papers/blob/main/LICENSE
+strategy: snapshot-copy (owned, personalized; no submodule, no upstream dependency)
+excluded: figure_*/figures/ outputs + assets/ (~32MB images; regenerate by running demos)
+local_changes:
+  - 2026-09-27: vendored figure_* plot scripts to demos/; SKILL.md + references/demos.md now point at local demos/

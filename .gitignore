@@ -1,0 +1,7 @@
+# Generated figure outputs from skill demos (regenerate by running plot_*.py)
+**/figures/
+**/__pycache__/
+**/*.pyc
+.venv/
+venv/
+.DS_Store
